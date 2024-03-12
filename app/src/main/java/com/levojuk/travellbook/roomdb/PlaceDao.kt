@@ -4,6 +4,7 @@ import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
+import androidx.room.Update
 import com.levojuk.travellbook.model.Place
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.core.Flowable
@@ -20,4 +21,6 @@ interface PlaceDao {
 
     @Delete
     fun delete(place: Place) : Completable
+    @Update
+    fun update(place: Place) : Completable
 }

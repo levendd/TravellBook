@@ -13,7 +13,7 @@ android {
     defaultConfig {
         applicationId = "com.levojuk.travellbook"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
